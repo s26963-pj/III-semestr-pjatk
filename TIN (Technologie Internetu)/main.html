@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie1</title>
+</head>
+<body>
+    <ul> <!-- Lista nieuporzadkowana -->
+        <li>link
+            <ul>
+                <li>link2</li>
+                <li>link2</li>
+                <li>link2</li>
+            </ul>
+        </li>
+        <li>link2</li>
+        <li>link3</li>
+    </ul>
+    <ol> <!-- Lista uporzadkowana -->
+        <li>link</li>
+        <li>link2</li>
+        <li>link3</li>
+    </ol>
+    <hr> <!-- Linia pozioma -->
+
+    <h1>Title1</h1> <!-- Naglowki od h1 do h6-->
+    <h2>Title1</h2>
+    <h3>Title1</h3>
+    <h4>Title1</h4>
+    <h5>Title1</h5>
+    <h6>Title1</h6>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero natus, adipisci officia illum error ipsa delectus fugiat, autem facere eaque ab rerum molestias a! Fugit, eligendi. Voluptate quas itaque sequi eos accusantium ad quis excepturi veniam tempora doloremque, nobis voluptates consequatur alias? Soluta maiores voluptates dolorum officiis dolore, omnis magnam necessitatibus? Distinctio amet est alias dolorum! Animi voluptatibus quo culpa aut ut deleniti dolore, quis nam tenetur illo, eligendi enim aperiam voluptatem asperiores iure dolorem expedita deserunt magni repellendus. Aliquam cumque cupiditate praesentium corrupti iste sed rem voluptates autem blanditiis nihil, eligendi dolores et veritatis facere. Delectus possimus rerum molestiae!</p>
+    <hr>
+
+    <img src="25727_1480591105_8026.jpg" alt="Zdjecie zimy, las">
+    <hr>
+    <h2>Subtitle2</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam doloremque labore non reprehenderit dolorem amet libero deleniti, soluta culpa atque a? A nobis tenetur fugit, iste enim reiciendis accusamus obcaecati!</p>
+    <h3>Subtitle3</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae mollitia corrupti praesentium nemo non quidem alias deleniti voluptates expedita dolores.</p>
+    <hr>
+
+    <form method="post" action="main.html">
+        <div>
+            <label for="imie">Imie</label>
+            <input type="text" name="imie" id="imie">
+        </div>
+        <div>
+            <label for="opis">Opis</label>
+            <textarea name="opis" id="opis">Wpisz cos</textarea>
+        </div>
+        <div>
+            <label for="wiek">Wiek</label>
+            <select name="wiek" id="wiek">
+                <option>0-18</option>
+                <option>19-65</option>
+                <option>65+</option>
+            </select>
+        </div>
+        <div>
+            <label for="opcja">Opcja</label>
+            <br>
+            <input type="radio" name="opcja" id="opcja1">Opcja1
+            <br>
+            <input type="radio" name="opcja" id="opcja2">Opcja2
+            <br>
+            <input type="radio" name="opcja" id="opcja3">Opcja3
+        </div>
+        <div>
+            <label for="jezyk">Jezyk</label>
+            <br>
+            <input type="checkbox" name="ch1" id="ch1">Opcja1
+            <br>
+            <input type="checkbox" name="ch2" id="ch2">Opcja2
+            <br>
+            <input type="checkbox" name="ch3" id="ch3">Opcja3
+        </div>
+        <input type="submit" name="wyslij" id="wyslij" value="Wyślij">
+        <input type="reset" name="anuluj" id="anuluj" value="Wyczyść">
+    </form>
+    <hr>
+
+    <table>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td colspan="2">dfg</td> <!-- colspan rowspan laczy odpowiednio komorki i wiersze-->
+        </tr>
+    </table>
+</body>
+</html>

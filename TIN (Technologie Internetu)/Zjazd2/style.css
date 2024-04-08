@@ -1,0 +1,105 @@
+.sidebar{
+    position: fixed;
+    background-color: rgb(162, 62, 255);
+    opacity: 40%;
+    height: 80%;
+    width: 15%;
+    left: 5%;
+}
+.nav1{
+    position: relative;
+    font-family: 'Times New Roman';
+    top: 0%;
+    opacity: 100%;
+    background-color: rgb(136, 0, 255);
+}
+.nav2{
+    position: relative;
+    font-family: 'Times New Roman';
+    opacity: 100%;
+    background-color: rgb(105, 0, 197);
+    left: -16%;
+    width: 98%;
+
+}
+.content2{
+    position: fixed;
+    background-color: blueviolet;
+    width: 60%;
+    height: 80%;
+    left: 20%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body{
+    background-image:url(dawn-lake-sunlight-deer-flat-landscape-sunset.jpg);
+    background-repeat: no-repeat;
+}
+th{
+    position: relative;
+    width: 350px;
+    text-align: center;
+}
+td{
+    position: relative;
+    width: 340px;
+    height: 50px;
+    outline-color: black;
+    outline-style: double;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+ul>li:hover{
+    color: rebeccapurple;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: purple;
+    color: black;
+    text-align: center;
+}
+.col{
+    position: relative;
+    width: 340px;
+    height: 50px;
+    background-color: rgb(127, 25, 216);
+    text-align: center;
+}
+.col1{
+    outline-color: black;
+    outline-style: double;
+}
+.col2{
+    outline-color: black;
+    outline-style: double;
+}
+.col3{
+    outline-color: black;
+    outline-style: double;
+}
+.rowXcolumnX{
+    outline-color: black;
+    outline-style: double;
+    background-color: rgb(151, 34, 253);
+}
+.rowYcolumnY{
+    outline-color: black;
+    background-color: rgb(127, 25, 216);
+    outline-style: double;
+}
+.data{
+    position: relative;
+    text-align: center;
+    
+    right: 10%;
+}
+.opisz{
+    position: relative;
+    height: 20%;
+    width: 20%;
+}

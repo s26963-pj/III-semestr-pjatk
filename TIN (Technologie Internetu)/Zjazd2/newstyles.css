@@ -1,0 +1,104 @@
+
+/*** To co ponizej odpowiada za rozwijane menu jakims cudem wiec nie ruszac! ***/
+ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    font-size:18px;
+    height:2em;
+    line-height:2em;
+    text-align:center;
+}
+ul > li {
+    float: left; 
+    width: 150px;
+    margin-left: 1px;
+    background-color: rgb(241, 241, 241);
+}
+ul > li:hover{
+    background-color: rgb(192, 192, 192);
+}
+ul > li > ul > li:hover{
+    background-color: rgb(192, 192, 192);
+}
+ul a{
+    display:block;
+    text-decoration:none;
+    padding:0 5px;
+}
+ul > li > ul {
+    display:none;
+}
+  
+ul > li:hover > ul {
+    display:block;
+}
+/*** To co ponizej bedzie odpowiadac za responsywnosc strony + przedzielenie na 2 czesci ***/
+body{
+    background-color: rgb(226, 226, 226);
+}
+.column1{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: inline;
+    left: 1%;
+    top: 16%;
+    width: 45%;
+    height: 90%;
+}
+.column2{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: inline;
+    left: 60%;
+    top: 16%;
+    width: 38%;
+    height: 90%;
+}
+img{
+    position: relative;
+    width: 100%;
+
+}
+@media all and (max-width: 1000px){
+    .column1{
+        width: 100%;
+    }
+    .column2{
+        position: absolute;
+        width: 100%;
+        top: 950px;
+        left: 1%;
+    }
+}
+/*** To co poniżej to stópka i kolumny ***/
+.footer > .foot{
+    position: absolute;
+    top: 110%;
+    width: 100%;
+    text-align: center;
+}
+@media all and (max-width: 1000px){
+    .footer{
+        position: absolute;
+        top: 200%;
+        width: 100%;
+        height: 0%;
+    }
+}
+.foot > li{
+    position: relative;
+    float: left;
+    margin-left: 1px;
+    text-align: center;
+    width: 33%;
+    height: 100%;
+}
+.tabelka{
+    width: 30%;
+    text-align: center;
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1pt solid black;
+}
